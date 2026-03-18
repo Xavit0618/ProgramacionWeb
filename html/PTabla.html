@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testeando...</title>
+
+<link rel="stylesheet" href="/css/Estilo.css">
+
+</head>
+<body>
+    <table id="Tabla1" name="tabla1" border="0"> 
+        <thead>
+            <th></th><th></th><th></th>
+        </thead>
+
+        <tbody>
+            <tr><td></td><td><img src="Img/Pastel.webp" alt="" class="avatar" width="150"></td><td></td></tr>
+            <tr><td>Nombre del Cliente</td><td><input type="text" id="cliente"></td> </tr>
+            <tr><td>Cantidad de postres</td><td><input type="text" id="cantidad"></td> </tr>
+
+            <tr><td>Pastel de fresa - $100</td><td><input type="checkbox" name="postre" value="100"></td></tr>
+            <tr><td>Flan - $30</td><td><input type="checkbox" name="postre" value="30"></td></tr>
+            <tr><td>Gelatina - $15</td><td><input type="checkbox" name="postre" value="15"></td></tr>
+            <tr><td>Helado - $10</td><td><input type="checkbox" name="postre" value="10"></td></tr>
+            <tr><td>EXTRAS:</td></tr>
+            <tr><td>Crema extra - $5</td><td><input type="checkbox" name="extra" value="5"></td></tr>
+            <tr><td>Chocolate extra - $2</td><td><input type="checkbox" name="extra" value="2"></td></tr>
+
+            <tr><td>Comer aquí</td><td><input type="radio" name="entrega" value="Llevar"></td></tr>
+            <tr><td>Pedir para llevar</td><td><input type="radio" name="entrega" value="Comer aquí"></td></tr>
+            
+        </tbody>
+
+    </table>
+        <button id="Boton" onclick="Calculando()">Total a pagar</button>
+        <button id="Boton2">Desconocido</button>
+</body>
+
+<script src="/js/MiScript.js"></script>
+
+</html>
